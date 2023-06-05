@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebecf0;
+}
+.container{
+    margin: auto;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.sub-container{
+    display: flex;
+    justify-content:space-between;
+
+}
+.Budget ,.Expense {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    position: relative;
+    margin: 10px 0px 10px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+h2,h3{
+    font-weight: 500;
+}
+.Budget input,.Expense input{
+     padding: 10px 50px;
+    margin: 10px 0px 10px 0px;
+}
+.btn{
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: transparent;
+    outline: none;
+    background-color: #587ef4;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.sub-container2{
+    display: flex;
+    justify-content:space-between;
+    background-color: #587ef4;
+    margin-top: 50px;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.Expense-list{
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+span{
+    text-align: center;
+}
+#clear, #clearexpense{
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li div button{
+    background-color: black;
+    color: white;
+}
+ul li div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
